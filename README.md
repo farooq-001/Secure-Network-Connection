@@ -1,5 +1,5 @@
 # Secure-Network-Connection
-# <<<<<<<<< https://github.com/slackhq/nebula/releases >>>>>>>>
+# <<<<<<<<< https://github.com/slackhq/nebula/releases >>>>>>>>>>
 1. wget https://github.com/slackhq/nebula/releases/download/v1.9.3/nebula-linux-amd64.tar.gz
 2. tar -xzf nebula-linux-amd64.tar.gz
 3. sudo cp -r  nebula /usr/local/bin/snc/
