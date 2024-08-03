@@ -9,6 +9,6 @@
 8. cd /etc/snc/
 9. sudo /usr/local/bin/snc/nebula-cert ca -name "Nebula CA"
 11. sudo chmod 775 /etc/snc/ca.* 
-13. sudo /usr/local/bin/snc/nebula-cert sign -name "host" -ip "172.52.0.1"
+13. sudo /usr/local/bin/snc/nebula-cert sign -name "host" -ip "172.52.0.1/8"
 14. cp -r snc.service /etc/systemd/system/snc.service
 15. systemctl start snc.service
